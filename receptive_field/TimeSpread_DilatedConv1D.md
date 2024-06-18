@@ -1,11 +1,9 @@
 Assumption: 
 
 1. $\omega$ a conv1d filter with support $[-L,L]$​ and weights i.i.d normal variables: 
-
 $$
 &\omega\sim \mathcal{N}(0,\sigma^2\text{I}_{2L+1})\\
 $$
-
 2. To have $\rVert\omega\lVert^2=1$, $\sigma^2$and $L$ should satisfy:
    $$
    \sigma^2(2L+1)=1
