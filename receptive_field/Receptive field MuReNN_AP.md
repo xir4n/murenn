@@ -62,10 +62,9 @@ By changing the variable: $\tau=u-u'\Rightarrow d\tau=du, t-u=t-\tau-u'$
 
 $$
 \begin{align}
-\Rightarrow \frac{\partial y_0}{\partial x_t}
+\frac{\partial y_0}{\partial x_t}
 &=\frac{1}{C_{\psi}}\int_{0}^{+\infty}\frac{1}{s^2}\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}\psi_s(-u')\overline{\psi_s}(t-\tau-u') \omega_s(-\tau)du' d\tau ds\\
 &=\frac{1}{C_{\psi}}\int_{0}^{+\infty}\frac{1}{s^2}\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}\psi_s(-u')\psi_s^*(u'+\tau-t) \omega_s(-\tau)du' d\tau ds\\
-&=\frac{1}{C_{\psi}}\int_{0}^{+\infty}\frac{1}{s^2}\int_{-\infty}^{+\infty} (\psi_s * \psi_s^* (\tau-t))\omega_s(-\tau) d\tau ds\\
-&=\frac{1}{C_{\psi}}\int_{0}^{+\infty}\frac{1}{s^2}\psi_s*\psi_s^* *\omega_s(t)ds\\
+&=\frac{1}{C_{\psi}}\int_{0}^{+\infty}\frac{1}{s^2}\psi_s  * \psi_s^ * *\omega_s(t)ds\\
 \end{align}
 $$
